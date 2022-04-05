@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDVtUU40NGRlZVZDd3VvMnVxM29FanZNOWZ1d3xBQ3Jtc0tsOThYTGNJNXhneTJ1OHZ0OEZkdXQ4X0xJYXNWN09YMGFtbzBqVEpuQWVVT25vTDZsekpJeGdHM3B0cTNzZFVYRm5KQ245eFFNZUs1bUhQdkQxUXhTeGRXaUU1UVM2cno4QzAwalJPc25NU1JsbUFtRQ&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fslick-carousel%2F1.6.0%2Fslick.min.js"></script>
+    <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1EzODJ2UG9JTnI1SVl0NjFBRWVOcW0zRTdUUXxBQ3Jtc0tuSWo1RHJjY013Z2kwUlJuRWMwTmVSQ0NlU2ltaUlkMHpna3JWUHFtZXFrZ2k0R1FQUjdIQ0NVT0hrRS1NcjcxSk9vbWFaRVhsZzJiNERCUXNWeDlKQURLRHM0dTd6M1g3UEZKOGVIY2RHVTM3eDdhSQ&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fjquery%2F3.5.1%2Fjquery.min.js"></script>
+    <sript src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></sript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    
+    <!-- links to make logo slider -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio/services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<a href="index.html"><img src="home icon.jpg"></a>
+<body>
+    <div class="service">
+        <div class="title">
+            <h2>My awesome <br><span>services</span></h2>
+            <p>Fuelled by a passion for designing and creating<br> compelling products, I have a deep desire to excel and<br> continuously improve in my work.</p>
+        </div>
+        <div class="box">
+            <div class="card">
+                <center><img src="Designer.webp"></center>
+                <h5>DESIGNER</h5>
+                <div class="pra">
+                   <p>I design beautiful and powerful websites for modern businesses. Any business today needs a website that wins customers’ trust and helps you do your business well. I make sure your website is up to that standard.</p>
+                    <p style="text-align:center;"></p>
+                </div>
+            </div>
+            <div class="card">
+                <center> <img src="PHONE.webp" alt=""></center>
+                <h5>DEVELOPER</h5>
+                <div class="pra">
+                    <p>I create User friendly interfaces for your website and a web interface that is aesthetically pleasing.</p>
+                    <p style="text-align:center;">
+                </p>
+                </div>
+            </div>
+            <div class="card">
+              <center><img src="Developer.webp"></center>
+              <h5>UI/UX</h5>
+         <p>I build websites in Webflow or using React where I can create responsive, powerful and fully custom websites. Plus, Webflow has an incredibly simple Content Editor for you and your team to edit website content quickly and easily.</p>
+                <div class="pra">
+                    <p style="text-align:center;">
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-center font-weight-bold">TECHNOLOGIES, <span>I USE</span></h2>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="jquery.jpeg" alt="logo"></div>
+                <div class="slide"><img src="php.jpeg" alt="logo"></div>
+                <div class="slide"><img src="bootstrap.jpeg" alt="logo"></div>
+                <div class="slide"><img src="wordpress.jpeg" alt="logo"></div>
+                <div class="slide"><img src="react.jpg" alt="logo"></div>
+                <div class="slide"><img src="images/twitter.png" alt="logo"></div>
+                <div class="slide"><img src="images/uber.png" alt="logo"></div>
+                <div class="slide"><img src="images/youtube.png" alt="logo"></div>
+            </section>
+        </div>
+    
+        <p class="copy text-center font-weight-bold">All Rights Reserved &copy; ENGINEER BRIAN</p>
+        
+    
+        <script>
+        
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover:false,
+                responsive: [{
+                    breakpoint: 768,
+                    setting: {
+                        slidesToShow:4
+                    }
+                }, {
+                    breakpoint: 520,
+                    setting: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    
+        </script>
+</body>
+</html>
